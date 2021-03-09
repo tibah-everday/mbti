@@ -1,0 +1,21 @@
+.status,
+.question,
+.answer {
+  display: block;
+  width: 100%;
+  background-color: #ffffff;
+}
+.answerSet {
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+}
+.answer {
+  margin-top: 20px;
+  height: 60px;
+  list-style: none;
+  cursor: pointer;
+}
+.statusBar {
+  background-color: #000;
+}
