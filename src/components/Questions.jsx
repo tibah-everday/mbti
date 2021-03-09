@@ -21,9 +21,8 @@ function Questions({handleResult, counter, handleCounter}) {
             handleResult();
             return;
         }
-        setCount(count+1);
-        const fakeBarWidth = (((count+2)/12)*100)+"%";        
-        setBarWidth(fakeBarWidth);                
+        setCount(count+1);                        
+        setBarWidth((((count+2)/12)*100)+"%");                
     }
    
     const barStyle={

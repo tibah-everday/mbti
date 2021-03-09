@@ -24,7 +24,7 @@ function App() {
   const [main, setMain] = useState(true);
   const [questions, setQuestions] = useState(false);
   const [result, setResult] = useState(false);
-  // console.log(main, questions, result);
+  
   function startTest(){
     setMain(false);
     setQuestions(true);    
